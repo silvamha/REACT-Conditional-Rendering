@@ -1,12 +1,19 @@
 import React from "react";
 import Input from "./Input";
 
-const Login = () => {
-    return       <form className="form">
-    <input type="text" placeholder="Username" />
-    <input type="password" placeholder="Password" />
-    <button type="submit">Login</button>
-  </form>
-}
+const Login = (props) => {
+  return (
+    <form className="form">
+      <Input
+      type = "text"
+      placeholder = "username"
+       />
+      <Input
+      type = 'password'
+      placeholder = "Password"
+       />
+    </form>
+  );
+};
 
 export default Login;
