@@ -4,3 +4,4 @@ node_modules
 *.pdf
 secrets.js
 secrets.jsx
+comments.md
